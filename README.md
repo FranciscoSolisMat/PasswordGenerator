@@ -1,4 +1,4 @@
-# Enlgish
+# English
 ## Installation
 1. Download and extract the latest copy of code in the [releases](https://github.com/FranciscoSolisMat/PasswordGenerator/releases/latest) page
 2. In your Chrome navigator paste the following url: `chrome://extensions/`
