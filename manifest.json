@@ -1,0 +1,26 @@
+{
+  "name": "Generador de Claves",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Genera claves seguras",
+  "homepage_url": "http://franciscosolis.cl",
+  "icons": {
+    "16": "icons/icon.png",
+    "48": "icons/icon.png",
+    "128": "icons/icon.png"
+  },
+  "default_locale": "en",
+  "background": {
+    "scripts": [
+      "src/bg/background.js"
+    ],
+    "persistent": true
+  },
+  "permissions": [
+    "clipboardWrite",
+    "notifications"
+  ],
+  "browser_action": {
+    "default_popup": "src/popup.html"	
+  }
+}
